@@ -15,7 +15,7 @@ console.log(gameName.charAt(2));
 console.log(gameName.indexOf('a'));
 
 const newString = gameName.substring(0, 4);
-console.log(newString); 
+console.log(newString);
 
 const anotherString = gameName.slice(-6, 4);
 console.log(anotherString);
@@ -27,5 +27,7 @@ console.log(thirdString.trim());
 
 const url = "https://www.youtube.com/watch?v=abc123";
 console.log(url.replace('watch?v=', 'embed/'));
+
+
 
 
