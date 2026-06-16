@@ -1,2 +1,2 @@
 # starryJava
-A code repo for Javascript series. 
+Building JavaScript concepts with this Repo.
