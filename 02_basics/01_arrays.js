@@ -41,5 +41,3 @@ console.log(myn2);
 
 
 
-
-
