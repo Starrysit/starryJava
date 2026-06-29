@@ -18,9 +18,29 @@ user.welcomeMessage()
 
 // console.log(this);
 
-function chai() {
+// function chai() {
+//     let username = "shaurya"
+//     console.log(this.username);
 
+
+// }
+// chai()
+
+// const chai = function () {
+//     let username = "shaurya"
+//     console.log(this.username);
+
+// }
+const chai = () => {
+    let username = "shaurya"
+    console.log(this.username);
 }
 
+chai()
 
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
 
+const addTwo = (num1, num2) => num1 + num2
+console.log(addTwo(3, 4));
